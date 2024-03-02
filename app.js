@@ -57,7 +57,7 @@ const initPlayers = (players) => {
             const player = {
                 name: playersData[i],
                 strength: getRandomStrength(), // Using the function from Progression 2
-                image: `superwars-basic1.png`,
+                image: `images/super-"+(i+1)+".png`,
                 type: i % 2 === 0 ? "hero" : "villain", // Alternating between hero and villain
                 // You can use your own logic for determining the type
             };
